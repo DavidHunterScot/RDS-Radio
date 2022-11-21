@@ -10,15 +10,15 @@ layout: "base.njk"
     {% macro jingle( text, file ) %}
         <p><b>{{ text }}</b></p>
         <audio controls>
-            <source src="https://drive.google.com/uc?export=download&id={{ file }}" type="audio/mpeg">
+            <source src="https://www.listento.rdsradio.co.uk/jingles/{{ file }}" type="audio/mpeg">
             Sorry, but your internet browsing app does not support the audio playback of this jingle.
         </audio>
     {% endmacro %}
 
-    {{ jingle( "Coolest Songs Miley Cyrus", "1UPBUItMFrL4WLDyojK1To1ZnEFK5WFux" ) }}
-    {{ jingle( "Health Message: Fire Safety (High-Raised Flats)", "1IB5TZl7dUVPrw2lc_W1PcmvGAkzyJtuH" ) }}
-    {{ jingle( "Health Message: Fire Safety", "1242VO8JJ_AJO4SiMhF1fJ0MygEOEv1ic" ) }}
-    {{ jingle( "If You're Bored - Jingle 1", "1j8igq10NliPWs1jEftvYz8svI0TJ0v7S" ) }}
-    {{ jingle( "If You're Bored - Jingle 2", "1-p9f3R7IzpIgNJ-UbAFxgbJnkJJ4IXmp" ) }}
-    {{ jingle( "Sound So Good", "1AMbCUqZwOhXJiFP-BgUQEZLzvSdccFap" ) }}
+    {{ jingle( "Coolest Songs Miley Cyrus", "coolest_songs_miley_cyrus.mp3" ) }}
+    {{ jingle( "Health Message: Fire Safety (High-Raised Flats)", "health_message-fire_safety-high-raised_flats.mp3" ) }}
+    {{ jingle( "Health Message: Fire Safety", "health_message-fire_safety.mp3" ) }}
+    {{ jingle( "If You're Bored - Jingle 1", "if_youre_bored-jingle_1.mp3" ) }}
+    {{ jingle( "If You're Bored - Jingle 2", "if_youre_bored-jingle_2.mp3" ) }}
+    {{ jingle( "Sound So Good", "sound_so_good.mp3" ) }}
 </div>
