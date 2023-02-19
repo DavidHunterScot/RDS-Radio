@@ -1,8 +1,11 @@
----
-title: Not Found (404)
-layout: "base.njk"
-permalink: 404.html
----
+<?php
+
+$page_title = "Not Found (404)";
+$friendly_urls = false;
+
+$page_content = function()
+{
+?>
 
 <div class="w3-padding-32">&nbsp;</div>
 
@@ -21,3 +24,8 @@ permalink: 404.html
 <div class="w3-content w3-padding w3-small w3-center w3-wide w3-text-gray" style="max-width: 600px;"><i>Error Code 404</i></div>
 
 <div class="w3-padding-32">&nbsp;</div>
+
+<?php
+};
+
+include __DIR__. DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "base.php";

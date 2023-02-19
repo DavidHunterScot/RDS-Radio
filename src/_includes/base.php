@@ -4,11 +4,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>{% if title %}{{ title }} - {% endif %}RDS Radio</title>
+		<title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>RDS Radio</title>
 		
-		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.co/4.15/w3.css">
-		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.co/w3-colors-metro.css">
-		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.co/w3-colors-flat.css">
+		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/4.15/w3.css">
+		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/w3-colors-metro.css">
+		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/w3-colors-flat.css">
 	</head>
 
 	<body>
@@ -26,7 +26,7 @@
         	</div>
         </nav>
 
-        {{ content | safe }}
+        <?php if( isset( $page_content ) && is_callable( $page_content ) ) $page_content(); ?>
 
         <footer class="w3-light-gray w3-border-gray w3-text-gray w3-topbar w3-monospace">
             <div class="w3-auto w3-padding w3-center w3-small">
