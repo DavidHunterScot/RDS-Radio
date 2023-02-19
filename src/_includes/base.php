@@ -6,9 +6,9 @@
 
 		<title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>RDS Radio</title>
 		
-		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/4.15/w3.css">
-		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/w3-colors-metro.css">
-		<link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/w3-colors-flat.css">
+		<link rel="stylesheet" type="text/css" href="/assets/w3css/4.15/w3.css">
+		<link rel="stylesheet" type="text/css" href="/assets/w3css/w3-colors-metro.css">
+		<link rel="stylesheet" type="text/css" href="/assets/w3css/w3-colors-flat.css">
 	</head>
 
 	<body>
