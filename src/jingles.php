@@ -10,23 +10,24 @@ $page_content = function()
     <h1>Jingles</h1>
     <p>The following is a selection of RDS Radio Jingles.</p>
 
-    <?php $jingle = function( $text, $file ) { ?>
-        <div style="text-align: center;">
+    <?php $jingle = function( $text, $file, $duration, $mimetype = "audio/mpeg" ) { ?>
+        <div class="w3-half w3-center">
             <p><b><?php echo $text; ?></b></p>
-            <audio controls>
-                <source src="https://www.listento.rdsradio.co.uk/jingles/<?php echo $file; ?>" type="audio/mpeg">
+            <audio controls preload="none">
+                <source src="https://www.listento.rdsradio.co.uk/jingles/<?php echo $file; ?>" type="<?php echo $mimetype; ?>">
                 Sorry, but your internet browsing app does not support the audio playback of this jingle.
             </audio>
+            <p><i>(<?php echo $duration; ?>)</i></p>
         </div>
     <?php }; ?>
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
-        <?php $jingle( "Coolest Songs Miley Cyrus", "coolest_songs_miley_cyrus.mp3" ); ?>
-        <?php $jingle( "Health Message: Fire Safety (High-Raised Flats)", "health_message-fire_safety-high-raised_flats.mp3" ); ?>
-        <?php $jingle( "Health Message: Fire Safety", "health_message-fire_safety.mp3" ); ?>
-        <?php $jingle( "If You're Bored - Jingle 1", "if_youre_bored-jingle_1.mp3" ); ?>
-        <?php $jingle( "If You're Bored - Jingle 2", "if_youre_bored-jingle_2.mp3" ); ?>
-        <?php $jingle( "Sound So Good", "sound_so_good.mp3" ); ?>
+    <div class="w3-row">
+        <?php $jingle( "Coolest Songs Miley Cyrus", "coolest_songs_miley_cyrus.mp3", "0:42" ); ?>
+        <?php $jingle( "Health Message: Fire Safety (High-Raised Flats)", "health_message-fire_safety-high-raised_flats.mp3", "0:36" ); ?>
+        <?php $jingle( "Health Message: Fire Safety", "health_message-fire_safety.mp3", "0:40" ); ?>
+        <?php $jingle( "If You're Bored - Jingle 1", "if_youre_bored-jingle_1.mp3", "0:28" ); ?>
+        <?php $jingle( "If You're Bored - Jingle 2", "if_youre_bored-jingle_2.mp3", "0:26" ); ?>
+        <?php $jingle( "Sound So Good", "sound_so_good.mp3", "0:29" ); ?>
     </div>
 </div>
 
