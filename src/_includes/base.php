@@ -30,7 +30,7 @@
 
         <footer class="w3-light-gray w3-border-gray w3-text-gray w3-topbar w3-monospace">
             <div class="w3-auto w3-padding w3-center w3-small">
-                <p>Copyright &copy; <a href="https://davidhunter.echoverse.cc" target="_blank">David Hunter</a>.</p>
+                <p>Copyright &copy; <a href="https://www.dah5.com/davidhunter" target="_blank">David Hunter</a>.</p>
             </div>
         </footer>
 	</body>
