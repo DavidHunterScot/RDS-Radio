@@ -57,7 +57,7 @@ $configurable_options[ 'metadata_delimiter' ] = "---";
 	Set to true to enable, or false to disable. Default is false.
 */
 
-$configurable_options[ 'minify_html' ] = false;
+$configurable_options[ 'minify_html' ] = true;
 
 
 /*
@@ -68,7 +68,7 @@ $configurable_options[ 'minify_html' ] = false;
 	Set to true to enable, or false to disable. Default is false.
 */
 
-$configurable_options[ 'minify_css' ] = false;
+$configurable_options[ 'minify_css' ] = true;
 
 
 /*
@@ -79,7 +79,7 @@ $configurable_options[ 'minify_css' ] = false;
 	Set to true to enable, or false to disable. Default is false.
 */
 
-$configurable_options[ 'minify_js' ] = false;
+$configurable_options[ 'minify_js' ] = true;
 
 
 /*
