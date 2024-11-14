@@ -6,9 +6,9 @@
 
 		<title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>RDS Radio</title>
 		
-		<link rel="stylesheet" type="text/css" href="/assets/w3css/4.15/w3.css">
-		<link rel="stylesheet" type="text/css" href="/assets/w3css/w3-colors-metro.css">
-		<link rel="stylesheet" type="text/css" href="/assets/w3css/w3-colors-flat.css">
+		<link rel="stylesheet" type="text/css" href="https://assets.weburl.net/w3css/4.15/w3.css">
+		<link rel="stylesheet" type="text/css" href="https://assets.weburl.net/w3css/w3-colors-metro.css">
+		<link rel="stylesheet" type="text/css" href="https://assets.weburl.net/w3css/w3-colors-flat.css">
 	</head>
 
 	<body>
@@ -30,7 +30,7 @@
 
         <footer class="w3-light-gray w3-border-gray w3-text-gray w3-topbar w3-monospace">
             <div class="w3-auto w3-padding w3-center w3-small">
-                <p>Copyright &copy; <a href="https://david-hunter.net" target="_blank">David Hunter</a>.</p>
+                <p>Copyright &copy; <a href="https://weburl.net/davidhunter" target="_blank">David Hunter</a>.</p>
             </div>
         </footer>
 	</body>

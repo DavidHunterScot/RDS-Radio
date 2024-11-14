@@ -14,7 +14,7 @@ $page_content = function()
         <div class="w3-half w3-center">
             <p><b><?php echo $text; ?></b></p>
             <audio controls preload="none">
-                <source src="https://assets.rdsradio.co.uk/audio/jingles/rdsradio_<?php echo $file; ?>" type="<?php echo $mimetype; ?>">
+                <source src="https://assets.weburl.net/audio/jingles/rdsradio_<?php echo $file; ?>" type="<?php echo $mimetype; ?>">
                 Sorry, but your internet browsing app does not support the audio playback of this jingle.
             </audio>
             <p><i>(<?php echo $duration; ?>)</i></p>
